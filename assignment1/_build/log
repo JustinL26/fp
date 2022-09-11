@@ -1,0 +1,119 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/justin_limberg/Documents/FPSE/assignment1
+# Auto-detected concurrency: 8
+$ /Users/justin_limberg/.opam/4.14.0/bin/ocamlc.opt -config > /var/folders/6b/8scw3tj11k7_f9qkvstqbvqr0000gn/T/dune_b9f87d_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/justin_limberg/.opam/4.14.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/justin_limberg/.opam/4.14.0/bin"
+#  ; ocaml = Ok External "/Users/justin_limberg/.opam/4.14.0/bin/ocaml"
+#  ; ocamlc = External "/Users/justin_limberg/.opam/4.14.0/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/justin_limberg/.opam/4.14.0/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/justin_limberg/.opam/4.14.0/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/justin_limberg/.opam/4.14.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/justin_limberg/.opam/4.14.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/justin_limberg/.opam/4.14.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/justin_limberg/Documents/FPSE/assignment1"
+#        ; "INSIDE_DUNE" :
+#            "/Users/justin_limberg/Documents/FPSE/assignment1/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/justin_limberg/Documents/FPSE/assignment1/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/justin_limberg/Documents/FPSE/assignment1/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/justin_limberg/Documents/FPSE/assignment1/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths = [ External "/Users/justin_limberg/.opam/4.14.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.14.0"
+#      ; standard_library_default =
+#          "/Users/justin_limberg/.opam/4.14.0/lib/ocaml"
+#      ; standard_library = "/Users/justin_limberg/.opam/4.14.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin21.6.0"
+#      ; target = "aarch64-apple-darwin21.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X031"
+#      ; cmi_magic_number = "Caml1999I031"
+#      ; cmo_magic_number = "Caml1999O031"
+#      ; cma_magic_number = "Caml1999A031"
+#      ; cmx_magic_number = "Caml1999Y031"
+#      ; cmxa_magic_number = "Caml1999Z031"
+#      ; ast_impl_magic_number = "Caml1999M031"
+#      ; ast_intf_magic_number = "Caml1999N031"
+#      ; cmxs_magic_number = "Caml1999D031"
+#      ; cmt_magic_number = "Caml1999T031"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/justin_limberg/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I .utop/.utop.eobjs/byte -I /Users/justin_limberg/.opam/4.14.0/lib/base -I /Users/justin_limberg/.opam/4.14.0/lib/base/base_internalhash_types -I /Users/justin_limberg/.opam/4.14.0/lib/base/caml -I /Users/justin_limberg/.opam/4.14.0/lib/base/md5 -I /Users/justin_limberg/.opam/4.14.0/lib/base/shadow_stdlib -I /Users/justin_limberg/.opam/4.14.0/lib/base_bigstring -I /Users/justin_limberg/.opam/4.14.0/lib/base_quickcheck -I /Users/justin_limberg/.opam/4.14.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /Users/justin_limberg/.opam/4.14.0/lib/bin_prot -I /Users/justin_limberg/.opam/4.14.0/lib/bin_prot/shape -I /Users/justin_limberg/.opam/4.14.0/lib/core -I /Users/justin_limberg/.opam/4.14.0/lib/core/base_for_tests -I /Users/justin_limberg/.opam/4.14.0/lib/core/validate -I /Users/justin_limberg/.opam/4.14.0/lib/fieldslib -I /Users/justin_limberg/.opam/4.14.0/lib/findlib -I /Users/justin_limberg/.opam/4.14.0/lib/int_repr -I /Users/justin_limberg/.opam/4.14.0/lib/jane-street-headers -I /Users/justin_limberg/.opam/4.14.0/lib/lambda-term -I /Users/justin_limberg/.opam/4.14.0/lib/logs -I /Users/justin_limberg/.opam/4.14.0/lib/lwt -I /Users/justin_limberg/.opam/4.14.0/lib/lwt/unix -I /Users/justin_limberg/.opam/4.14.0/lib/lwt_react -I /Users/justin_limberg/.opam/4.14.0/lib/mew -I /Users/justin_limberg/.opam/4.14.0/lib/mew_vi -I /Users/justin_limberg/.opam/4.14.0/lib/ocaml/compiler-libs -I /Users/justin_limberg/.opam/4.14.0/lib/ocaml/threads -I /Users/justin_limberg/.opam/4.14.0/lib/ocplib-endian -I /Users/justin_limberg/.opam/4.14.0/lib/ocplib-endian/bigstring -I /Users/justin_limberg/.opam/4.14.0/lib/parsexp -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_assert/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_bench/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_compare/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_enumerate/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/collector -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/common -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/config -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/config_types -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_hash/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_here/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_inline_test/config -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_inline_test/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_log/types -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_module_timer/runtime -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_sexp_conv/runtime-lib -I /Users/justin_limberg/.opam/4.14.0/lib/react -I /Users/justin_limberg/.opam/4.14.0/lib/result -I /Users/justin_limberg/.opam/4.14.0/lib/sexplib -I /Users/justin_limberg/.opam/4.14.0/lib/sexplib0 -I /Users/justin_limberg/.opam/4.14.0/lib/splittable_random -I /Users/justin_limberg/.opam/4.14.0/lib/stdio -I /Users/justin_limberg/.opam/4.14.0/lib/time_now -I /Users/justin_limberg/.opam/4.14.0/lib/trie -I /Users/justin_limberg/.opam/4.14.0/lib/typerep -I /Users/justin_limberg/.opam/4.14.0/lib/uchar -I /Users/justin_limberg/.opam/4.14.0/lib/utop -I /Users/justin_limberg/.opam/4.14.0/lib/uucp -I /Users/justin_limberg/.opam/4.14.0/lib/uuseg -I /Users/justin_limberg/.opam/4.14.0/lib/uutf -I /Users/justin_limberg/.opam/4.14.0/lib/variantslib -I /Users/justin_limberg/.opam/4.14.0/lib/zed -I src/.submission.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /Users/justin_limberg/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o .utop/utop.exe -output-complete-exe /Users/justin_limberg/.opam/4.14.0/lib/ocaml/compiler-libs/ocamlcommon.cma /Users/justin_limberg/.opam/4.14.0/lib/ocaml/compiler-libs/ocamlbytecomp.cma /Users/justin_limberg/.opam/4.14.0/lib/ocaml/compiler-libs/ocamltoplevel.cma /Users/justin_limberg/.opam/4.14.0/lib/findlib/findlib.cma /Users/justin_limberg/.opam/4.14.0/lib/findlib/findlib_top.cma /Users/justin_limberg/.opam/4.14.0/lib/logs/logs.cma -I /Users/justin_limberg/.opam/4.14.0/lib/ocaml /Users/justin_limberg/.opam/4.14.0/lib/lwt/lwt.cma /Users/justin_limberg/.opam/4.14.0/lib/logs/logs_lwt.cma /Users/justin_limberg/.opam/4.14.0/lib/ocaml/unix.cma -I /Users/justin_limberg/.opam/4.14.0/lib/ocaml /Users/justin_limberg/.opam/4.14.0/lib/ocaml/bigarray.cma -I /Users/justin_limberg/.opam/4.14.0/lib/ocaml /Users/justin_limberg/.opam/4.14.0/lib/ocplib-endian/ocplib_endian.cma /Users/justin_limberg/.opam/4.14.0/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /Users/justin_limberg/.opam/4.14.0/lib/ocaml/threads/threads.cma -I /Users/justin_limberg/.opam/4.14.0/lib/ocaml /Users/justin_limberg/.opam/4.14.0/lib/lwt/unix/lwt_unix.cma -I /Users/justin_limberg/.opam/4.14.0/lib/lwt/unix /Users/justin_limberg/.opam/4.14.0/lib/react/react.cma /Users/justin_limberg/.opam/4.14.0/lib/lwt_react/lwt_react.cma /Users/justin_limberg/.opam/4.14.0/lib/result/result.cma /Users/justin_limberg/.opam/4.14.0/lib/uutf/uutf.cma /Users/justin_limberg/.opam/4.14.0/lib/uucp/uucp.cma /Users/justin_limberg/.opam/4.14.0/lib/uuseg/uuseg.cma /Users/justin_limberg/.opam/4.14.0/lib/zed/zed.cma /Users/justin_limberg/.opam/4.14.0/lib/trie/trie.cma /Users/justin_limberg/.opam/4.14.0/lib/mew/mew.cma /Users/justin_limberg/.opam/4.14.0/lib/mew_vi/mew_vi.cma /Users/justin_limberg/.opam/4.14.0/lib/lambda-term/lambda_term.cma -I /Users/justin_limberg/.opam/4.14.0/lib/lambda-term /Users/justin_limberg/.opam/4.14.0/lib/utop/uTop.cma /Users/justin_limberg/.opam/4.14.0/lib/base/base_internalhash_types/base_internalhash_types.cma -I /Users/justin_limberg/.opam/4.14.0/lib/base/base_internalhash_types /Users/justin_limberg/.opam/4.14.0/lib/base/caml/caml.cma /Users/justin_limberg/.opam/4.14.0/lib/sexplib0/sexplib0.cma /Users/justin_limberg/.opam/4.14.0/lib/base/shadow_stdlib/shadow_stdlib.cma /Users/justin_limberg/.opam/4.14.0/lib/base/base.cma -I /Users/justin_limberg/.opam/4.14.0/lib/base /Users/justin_limberg/.opam/4.14.0/lib/ppx_sexp_conv/runtime-lib/ppx_sexp_conv_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_compare/runtime-lib/ppx_compare_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_enumerate/runtime-lib/ppx_enumerate_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_hash/runtime-lib/ppx_hash_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_here/runtime-lib/ppx_here_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_assert/runtime-lib/ppx_assert_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_bench/runtime-lib/ppx_bench_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/base/md5/md5_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/fieldslib/fieldslib.cma /Users/justin_limberg/.opam/4.14.0/lib/variantslib/variantslib.cma /Users/justin_limberg/.opam/4.14.0/lib/bin_prot/shape/bin_shape_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/bin_prot/bin_prot.cma -I /Users/justin_limberg/.opam/4.14.0/lib/bin_prot /Users/justin_limberg/.opam/4.14.0/lib/ppx_inline_test/config/inline_test_config.cma /Users/justin_limberg/.opam/4.14.0/lib/jane-street-headers/jane_street_headers.cma /Users/justin_limberg/.opam/4.14.0/lib/time_now/time_now.cma -I /Users/justin_limberg/.opam/4.14.0/lib/time_now /Users/justin_limberg/.opam/4.14.0/lib/ppx_inline_test/runtime-lib/ppx_inline_test_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/stdio/stdio.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_module_timer/runtime/ppx_module_timer_runtime.cma /Users/justin_limberg/.opam/4.14.0/lib/typerep/typerep_lib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/common/expect_test_common.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/config_types/expect_test_config_types.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/collector/expect_test_collector.cma -I /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/collector /Users/justin_limberg/.opam/4.14.0/lib/ppx_expect/config/expect_test_config.cma /Users/justin_limberg/.opam/4.14.0/lib/parsexp/parsexp.cma /Users/justin_limberg/.opam/4.14.0/lib/sexplib/sexplib.cma /Users/justin_limberg/.opam/4.14.0/lib/ppx_log/types/ppx_log_types.cma /Users/justin_limberg/.opam/4.14.0/lib/splittable_random/splittable_random.cma /Users/justin_limberg/.opam/4.14.0/lib/base_quickcheck/base_quickcheck.cma /Users/justin_limberg/.opam/4.14.0/lib/base_quickcheck/ppx_quickcheck/runtime/ppx_quickcheck_runtime.cma /Users/justin_limberg/.opam/4.14.0/lib/int_repr/int_repr.cma /Users/justin_limberg/.opam/4.14.0/lib/base_bigstring/base_bigstring.cma -I /Users/justin_limberg/.opam/4.14.0/lib/base_bigstring /Users/justin_limberg/.opam/4.14.0/lib/core/base_for_tests/base_for_tests.cma /Users/justin_limberg/.opam/4.14.0/lib/core/validate/validate.cma /Users/justin_limberg/.opam/4.14.0/lib/core/core.cma -I /Users/justin_limberg/.opam/4.14.0/lib/core src/submission.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

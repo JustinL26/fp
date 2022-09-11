@@ -1,0 +1,5 @@
+# dune init proj helloworld
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/justin_limberg/Documents/FPSE/Practice
+# Auto-detected concurrency: 8
